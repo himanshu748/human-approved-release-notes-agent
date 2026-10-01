@@ -1,0 +1,34 @@
+# example/harbor v1.4.0
+
+<!-- DRAFT: human review required -->
+
+## Breaking changes
+
+- Remove deprecated \-\-legacy\-cache option ([#43](https://github.com/example/harbor/pull/43))
+
+Migration guidance must be supplied by a maintainer before external publication.
+
+## Features
+
+- Add CSV export for filtered results ([#41](https://github.com/example/harbor/pull/41))
+
+## Fixes
+
+- Fix empty search results returning a server error ([#42](https://github.com/example/harbor/pull/42))
+
+## Documentation
+
+- Document retry configuration ([#44](https://github.com/example/harbor/pull/44))
+
+## Source provenance
+
+Snapshot SHA-256: `4f570db7f7771d243523b129ae5ef927a208a6499d98146365be8110550a9a9d`
+
+Drafting mode: deterministic template; no LLM-generated claims.
+
+Review warnings:
+- Draft uses PR titles and labels only; verify user impact and technical accuracy.
+- Sources are an unverified local snapshot; hashes prove consistency, not authenticity.
+- PR #43: maintainer must verify migration guidance.
+- PR #44: instruction-like text detected; inspect source body.
+Draft SHA-256: 4938ac49169cd29471523b91ce78689aaf4ff9edc027aa498dd11c3cc8ada93e
